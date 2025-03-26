@@ -8,7 +8,10 @@ from typing import Any
 from mkdocs.config.defaults import MkDocsConfig
 from mkdocs.plugins import get_plugin_logger
 
-from mkdocstrings_handlers.pydantic_settings._internal.config import PydanticSettingsInputConfig, PydanticSettingsInputOptions
+from mkdocstrings_handlers.pydantic_settings._internal.config import (
+    PydanticSettingsInputConfig,
+    PydanticSettingsInputOptions,
+)
 
 # TODO: Update when Pydantic supports Python 3.14 (sources and duties as well).
 try:
